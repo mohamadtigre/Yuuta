@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "destination": "https://vp.sihirtouch.com.tr"
+      "source": "/(.*)",
+      "destination": "https://seems.sihirtouch.com.tr/$1"
     }
   ]
 }
